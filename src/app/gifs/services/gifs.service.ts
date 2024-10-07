@@ -61,7 +61,7 @@ export class GifsService {
 
   //metodo buscar
   searchTag( tag:string ):void{
-    //si la alabra es igual a cero no hace nada
+    //si la palabra es igual a cero no hace nada
     if( tag.length === 0 ) return;
     this.organizeHistory(tag); //Metodo
 
